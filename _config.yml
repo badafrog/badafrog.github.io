@@ -26,7 +26,7 @@
 
 title: Sangwoo's blog
 email: sangwrhie@gmail.com
-author: @sangwoorhie GitHub
+author: \@sangwoorhie GitHub
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -40,21 +40,22 @@ author: @sangwoorhie GitHub
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "Copyright (c) {2021} {sangwoorhie}"
+copyright: "Copyright (c) 2021 sangwoorhie"
 
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://sangwoorhie.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: "" # the favicon for your site
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 yat:
   date_format: "%b %d, %Y"
+
 
 # If you want more debug log, you can set true
 # debug: false
@@ -117,6 +118,7 @@ yat:
 # orangered: #ff5100
 # greatgold: #f2cb05
 # greenblue: #389092
+# darkgreen: #16483a
 #
 # brand_color: orangered
 #
@@ -156,8 +158,8 @@ yat:
 # Page default value
 # defaults:
 #   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
+#     heading: "바다개구리 놀이터"
+#     subheading: "# sangwoo"
 #     banner: "Your image url"
 
 # Banner default settings
