@@ -87,7 +87,7 @@ The following is the process using multiprocessing:
 
 3. Run each process.
 
-```python
+{% highlight python linenos %}
 process_l = list()
 for i, dir in enumerate(dir_list):    # Define a process, add to the list
       p = Process(target=create_dcm_folder, args=(i, new_path, dir))    # create_dcm_folder: function to be executed by each process
@@ -95,7 +95,7 @@ for i, dir in enumerate(dir_list):    # Define a process, add to the list
       process_l.append(p)
 for p in process_l:
       p.join()
-```
+{% endhighlight %}
 
 
 **GitHub Link**: <https://github.com/somersaultFrog/dicom-file-classifier>
