@@ -11,7 +11,7 @@ tags: [python, work]
 A DICOM file is an image saved in the **Digital Imaging and Communications in Medicine**(DICOM) format.<br/>
 It contains an image from a medical scan, such as an ultrasound or MRI.<br/>
 DICOM files may also include identification data for patients to link the image to a specific individual.<br/>
-- fileinfo.com
+\- [Reference:fileinfo.com](https://fileinfo.com/extension/dicom#:~:text=A%20DICOM%20file%20is%20an,as%20an%20ultrasound%20or%20MRI.&text=It%20was%20designed%20to%20exchange,%2C%20MRIs%2C%20and%20ultrasound%20images.)
 
 ### Classification
 
@@ -38,13 +38,17 @@ Unclassified_folder
 ~~~
 
 
+
+
 **Naming Format:**
 
-When sorting, the information obtained from the header of the dicom file determines
+When sorting, the information obtained from the header of the dicom file determines<br/>
 {folder name} & {subfolder name}.
 
-folder: {PatientName}_{PatientID}
-subfolder: {SeriesDescription}_{SeriesNumber}
+Folder: {PatientName}_{PatientID}<br/>
+Subfolder: {SeriesDescription}_{SeriesNumber}
+
+
 
 
 **File directory tree of Classified dicom files:**
@@ -94,10 +98,9 @@ for p in process_l:
 ```
 
 
-
 **GitHub Link**: <https://github.com/somersaultFrog/dicom-file-classifier>
-
-
-
+ <br/>
+ <br/>
+ <br/>
 
 * Did you know? Frogs **cannot** live in the sea.
