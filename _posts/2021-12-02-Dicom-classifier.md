@@ -98,7 +98,7 @@ for p in process_l:
 {% endhighlight %}
 
 
-**GitHub Link**: <https://github.com/somersaultFrog/dicom-file-classifier>
+**GitHub Link**: <https://github.com/badafrog/dicom-file-classifier>
  <br/>
  <br/>
  <br/>
