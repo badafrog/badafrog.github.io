@@ -2,7 +2,7 @@
 layout: post
 title: Dicom Classifier
 subtitle: File classification using python & multiprocessing
-categories: work
+categories: python
 tags: [python, work]
 ---
 
@@ -45,8 +45,8 @@ Unclassified_folder
 When sorting, the information obtained from the header of the dicom file determines<br/>
 {folder name} & {subfolder name}.
 
-Folder: {PatientName}_{PatientID}<br/>
-Subfolder: {SeriesDescription}_{SeriesNumber}
+Folder: {PatientName}\_{PatientID}<br/>
+Subfolder: {SeriesDescription}\_{SeriesNumber}
 
 
 
@@ -76,12 +76,12 @@ Classified_folder
 
 ### Multi Processing
 
-At first, I just wrote the code and ran it(without multprocessing)<br/>
+At first, I just wrote the code and ran it(without multiprocessing)<br/>
 It was too slow. So I used multiprocessing.
 
 The following is the process using multiprocessing:
 
-1. set the number of processes.
+1. Set the number of processes.
 
 2. Assign tasks to each process according to the number of processes.
 

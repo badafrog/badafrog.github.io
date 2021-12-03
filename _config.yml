@@ -24,9 +24,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 바다개구리
+title: Badafrog
 email: sangwrhie@gmail.com
-author: \@somersaultFrog GitHub
+author: \@badafrog GitHub
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -40,13 +40,13 @@ author: \@somersaultFrog GitHub
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "Copyright (c) 2021 somersaultFrog"
+copyright: "Copyright (c) 2021 badafrog"
 
 description: >- # this means to ignore newlines until "baseurl:"
-  somersaultfrog's github blog. 
+  badafrog's github blog. 
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://somersaultfrog.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://badafrog.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: "" # the favicon for your site
 
 # Yat date format
@@ -157,8 +157,8 @@ header_pages:
 # Page default value
 # defaults:
 #   home:
-#     heading: "바다개구리 놀이터"
-#     subheading: "# somersault"
+#     heading: "badafrogs's playground"
+#     subheading: ""
 #     banner: "Your image url"
 
 # Banner default settings
